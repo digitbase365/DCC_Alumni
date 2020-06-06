@@ -29,7 +29,9 @@
 } 
 p{
     line-height: 1.4rem;
+    text-align: justify;
 }
+
 h1, h2, h3, h4{
     color: var(--navyblupigment);
 }
@@ -701,4 +703,94 @@ div.responses p{
 }
 div.responses > p > span{
     font-weight: bold;
+}
+/* ''''''''''''EVENTS AT DCC MEDIA QUERIES''''''''''''''' */
+section.dcc-events h1{
+    font-size: 1.1rem;
+    margin-top: 2em;
+} 
+div.events-calendar{
+    margin: 2em 0;
+    border-top: 2px solid var(--purpigment);
+    border-bottom: 2px solid var(--purpigment);
+    padding: 1em 0;
+}
+div.events-calendar h3{
+    margin: 1em 0 .2em;
+    font-size: 1rem;
+}
+div.events-calendar p{
+    padding-bottom: 1em;
+}
+a.callout-btn{
+   display: inline-block;
+   margin-top: 1em;
+   width: 45%;
+   text-decoration: none;
+   color: #fff;
+   background-color: var(--purpigment);
+   text-align: center;
+   padding: .5em 1em;
+   font-size: smaller;
+   border-radius: 15px;
+}
+a.callout-btn:last-of-type{
+    float: right;
+}
+div.events-calendar ~ h3{
+    font-size: 1rem;
+    margin-bottom: .2em;
+    text-align: center;
+}
+div.events-calendar ~ p{
+    padding-bottom: 1.5em;
+}
+section.dcc-events div.wellbeing{
+    margin: 1.5em 0 3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-gap: 1em;
+    padding: 0 2em;
+}
+div.wellbeing .cards{
+    background-color: var(--lightpurpigment);
+    text-align: center;
+    color: #fff;
+    padding: 2em; 
+    border: 7px solid #E9EDDE;
+    border-style: double;
+    border-radius: 15px;
+}
+div.wellbeing .cards:nth-of-type(2){
+    background-color: #FF6663;
+}
+div.wellbeing .cards:nth-of-type(3){
+    background-color: #0B3954;
+}
+div.wellbeing .cards:nth-of-type(4){
+    background-color: #1B998B;
+}
+div.wellbeing .cards:nth-of-type(5){
+    background-color: #FF7F11;
+}
+div.wellbeing .cards:nth-of-type(6){
+    background-color: #41292C;
+} 
+div.wellbeing .cards h4{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #fff;
+}
+div.wellbeing .cards p{
+    text-align: center;
+    font-size: .9rem;
+}
+div.wellbeing .cards img{
+    margin: 2em 0; 
+    width: 50%;
+} 
+section.dcc-events h5{
+    font-size: 1rem;
+    margin: 1em 0;
+    color: #393E41; 
 }
