@@ -714,6 +714,7 @@ div.events-calendar{
     border-top: 2px solid var(--purpigment);
     border-bottom: 2px solid var(--purpigment);
     padding: 1em 0;
+    overflow: hidden;
 }
 div.events-calendar h3{
     margin: 1em 0 .2em;
