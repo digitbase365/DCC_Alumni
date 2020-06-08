@@ -722,13 +722,19 @@ section.dcc-life > h1{
     box-shadow: 2px 4px 10px var(--navyblupigment);
     text-align: justify;
 }
+section.dcc-life .minds h3{
+    margin: 1.5em 0 .2em;
+}
 .dcc-minds img{
     width: 100%;
+}
+.responses h2{
+    margin: 1em 0 .2em;
 }
 div.quotes{
     border-top: 2px solid var(--lighgreenpigment);
     border-bottom: 2px solid var(--lighgreenpigment);
-    font-size: 1.01rem;
+    font-size: 1.25rem;
     line-height: 1.5;
     text-align: justify;
     color: var(--navyblupigment);
