@@ -338,7 +338,7 @@ h2.official-partners{
 }
 section.partners{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(5.25em, 1fr));
     grid-gap: 1em;
     overflow: hidden;
     background-color: var(--lighgreypigment); 
