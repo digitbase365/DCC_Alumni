@@ -22,7 +22,6 @@
     --lighgreypigment: #eff0f5;
 }  
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-family:  'Baloo Paaji 2', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     margin: 0; 
     box-sizing: border-box;
@@ -44,7 +43,7 @@ li .fa{
     width: 2em; 
 }
 .mother{
-    font-size: .8rem;
+    font-size: .9rem;
 }
 .container{
     width: 90%;
@@ -63,6 +62,7 @@ header{
     box-shadow: 0px 3px 7px #00295095;
     text-align: left;
     border-left: 14px solid var(--goldyellpigment); 
+    z-index: 1;
 }
 header img{
     width: 45px;  
@@ -76,7 +76,7 @@ header img{
 /* >>>>>>>>>>>Styling Mobile Vertical Menu<<<<<<<<<<<<<<<< */ 
 
 nav ul{ 
-    position: fixed; 
+    position: fixed;  
     top: 4.1em;
     width: 14.5em; 
     right: -14.5em;   
@@ -95,7 +95,7 @@ nav ul li{
     text-align: left; 
     line-height: 2.5; 
     cursor: pointer; 
-    padding-left: .8em;
+    padding-left: .8em; 
 }
 nav ul li:active{
     transform: translateY(2px);
@@ -170,7 +170,8 @@ nav ul li a{
     color: #fff;
     animation: drop 5s forwards ; 
     font-weight: normal;
-    font-style: italic;
+    font-style: italic; 
+    font-size: 1.5rem;
 }
 .welcome h1 span:first-of-type{
     display: block;
@@ -181,7 +182,7 @@ nav ul li a{
 }
 .welcome h1 img{
     margin-top: .56em;
-    width: 9.2em;
+    width: 9.8em;
 }
 
 .hide-mobile{
@@ -326,13 +327,13 @@ section.latest div{
     line-height: 1.2;
 }
 h2.official-partners{
-    margin-top: 3em;
+    margin-top: 4em;
     background-color: var(--lighgreypigment);
     text-transform: uppercase;
     color: var(--navyblupigment);
-    padding: 1.5em 0 0;
+    padding: 1.5em 0 .5em;
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
 }
 section.partners{
     display: grid;
@@ -636,7 +637,7 @@ footer .medialinks{
     }
 }
 
-/* ############## MEMBERSHIP RULESETS ##################### */
+/* ############## MEMBERSHIP MEDIA RULESETS ############## */
  
 
 article.alumni-association{
@@ -692,7 +693,7 @@ aside.alumni-services ul li{
 }  
 
 
-/* ''''''''''''''MEMEBERSHIP MEDIA QUERIES'''''''''' */
+/* ''''''''''''''MEMBERSHIP DESKTOP MEDIA RULESETS'''''''''' */
 @media screen and (min-width:1024px){
     section.container.membership{
         display: flex;
@@ -831,6 +832,9 @@ section.dcc-events h5{
     color: #393E41; 
 }
 /* '''''''''''MEET DCC MEDIA QUERIES''''''''''''''' */ 
+section.dcc-meet{
+    overflow: hidden;
+}
 section.dcc-meet .meet-up img{ 
     width: 117%; 
 } 
