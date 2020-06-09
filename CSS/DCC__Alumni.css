@@ -953,7 +953,7 @@ section .storyline{
     border-left: 4px solid var(--lightpurpigment);
 }
 section .storyline::before{
-    content: "Checkout her storyline";
+    content: "May 2020 - Checkout her storyline";
     width: 100%;
     height: 35px;
     background-color: var(--lightpurpigment);
